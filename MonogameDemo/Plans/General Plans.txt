@@ -1,0 +1,39 @@
+﻿(I generally keep a few text files in the project/Git repository to store ideas, psudocode, and future plans)
+
+Basics:
+-Load an image file
+-Draw image on screen  
+-Only draw a section of the image
+-Make the image move on the screen
+  -Vector2 tracking the object's position
+  -Seperate vector in Update function tracking this frame's movement
+  -if(press up arrow) movement.Y++;
+  -if(press down arrow) movement.Y--;
+  -etc.
+  -movement.Normalize()
+    -Ensures that the movement vector is one unit long, no matter what
+-Draw a map
+
+Rough roadmap of basic utilities, sorted by difficulty and importance:
+
+-Implement Sprite class
+   Rotatable Sprite demo
+-Implement Animation class
+   Rotatable Anim demo
+-Implement Button class
+-Implement DrawableText class
+
+-Implement InputManager
+-Implement AxisAlignedBox class
+-Implement Circle class
+-Update Button class
+
+-Implement ScreenManager
+-Implement Screen class
+
+-Implement Polygon class
+-Implement Animation State Machine class
+
+-Implement DynamicContentManager
+
+-Implement AudioManager
